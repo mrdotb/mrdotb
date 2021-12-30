@@ -28,6 +28,12 @@ paginate = 5
   #(default is Description or Summary metadata in the front matter)
   # rssFullText = true
 
+[author]
+github = "https://github.com/mrdotb/"
+twitch = "https://twitch.tv/mrdotb"
+linkedin = "https://www.linkedin.com/in/baptiste-chaleil-9494a775/"
+
+
 [languages]
   [languages.en]
     title = "mrdotb"
@@ -58,13 +64,34 @@ paginate = 5
         identifier = "post"
         name = "Posts"
         url = "/posts"
+        weight = 1
 
       [[languages.en.menu.main]]
         identifier = "til"
         name = "Today I learn"
         url = "/tils"
+        weight = 2
 
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
+        weight = 3
+
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/mrdotb/"
+        weight = 4
+
+      [[languages.en.menu.main]]
+        identifier = "twitch"
+        name = "Twitch"
+        url = "https://twitch.tv/mrdotb"
+        weight = 5
+
+      [[languages.en.menu.main]]
+        identifier = "linkedin"
+        name = "Linkedin"
+        url = "https://www.linkedin.com/in/baptiste-chaleil-9494a775/"
+        weight = 6

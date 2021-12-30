@@ -9,7 +9,7 @@ showReadingTime = false
 +++
 
 When we try to get the doc of a erlang function we got
-```shell
+```elixir
 h :file.write
 ...
 Module was compiled without docs. Showing only specs.

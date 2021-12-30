@@ -1,0 +1,37 @@
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="copyright">
+      <span
+        >© {{ $.Site.Copyright }} {{ now.Year }} Powered by
+        <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
+      >
+      <span
+        >Theme created by
+        <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
+      >
+    </div>
+
+    <div class="socials">
+      <span>
+        <a href="{{ $.Site.Author.Github }}" target="_blank">
+          {{ readFile "assets/img/github-icon.svg" | safeHTML }}
+        </a>
+      </span>
+      <span>
+        <a href="{{ $.Site.Author.Twitch}}" target="_blank">
+          {{ readFile "assets/img/twitch-icon.svg" | safeHTML }}
+        </a>
+      </span>
+      <span>
+        <a href="{{ $.Site.Author.Linkedin }}" target="_blank">
+          {{ readFile "assets/img/linkedin-icon.svg" | safeHTML }}
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script src="{{ "assets/main.js" | absURL }}"></script>
+<script src="{{ "assets/prism.js" | absURL }}"></script>
+
+{{- partial "extended_footer.html" . }}
