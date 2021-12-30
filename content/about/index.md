@@ -1,6 +1,7 @@
 +++
 title = 'About'
 description = 'About mrdotb'
+layout = 'about'
 +++
 
 ## Hi there
@@ -14,6 +15,3 @@ When I am not working I like to travel around the world or tinker my [~dotfiles]
 I maintain some open-source projects on [github](https://github.com/mrdotb/) and answers questions occasionally on [stack overflow](https://stackoverflow.com/users/3343266/mrdotb). 
 
 My linux distributions of choice are [Pop!_OS](https://pop.system76.com/) for my development environment and [ubuntu](https://ubuntu.com/) for my servers.
-
-![<i>Sense</i> at Samsung d'light, Seoul Korea](/about/sense.jpg)
-*<i>Sense</i> at Samsung d'light, Seoul Korea*

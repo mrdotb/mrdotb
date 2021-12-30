@@ -8,5 +8,5 @@ tags = ['shell', 'til']
 
 
 Sometime when we work on long cmd line like awk script I want to be able to edit
-it in my $EDITOR.
-Use `fc` to open the last sended cmd line in your $EDITOR.
+it in my `$EDITOR`.
+Use `fc` to open the last sended cmd line in your `$EDITOR`.

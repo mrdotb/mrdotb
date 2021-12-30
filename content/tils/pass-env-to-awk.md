@@ -7,7 +7,7 @@ tags = ['awk', 'shell', 'til']
 +++
 
 It's not possible to use env variable in awk but we can pass them like this.
-```
+```shell
 export VAR=test
 echo | awk -v env_var="$VAR" '{print "The value of VAR is " env_var}'
 > The value of VAR is test

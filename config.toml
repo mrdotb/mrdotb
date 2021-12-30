@@ -9,6 +9,8 @@ paginate = 5
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
 
+  mainSections = ['posts', 'tils']
+
   # "light" or "dark"
   defaultTheme = "dark"
 
@@ -44,7 +46,7 @@ paginate = 5
     # leave empty to disable, enter display text to enable
     # lastModDisplay = ""
 
-    [languages.en.params.logo]
+    # [languages.en.params.logo]
       # logoText = "mrdotb"
       # logoHomeLink = "/"
       # or
