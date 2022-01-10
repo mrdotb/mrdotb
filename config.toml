@@ -29,9 +29,9 @@ paginate = 5
   # rssFullText = true
 
 [author]
-github = "https://github.com/mrdotb/"
-twitch = "https://twitch.tv/mrdotb"
-linkedin = "https://www.linkedin.com/in/baptiste-chaleil-9494a775/"
+  github = "https://github.com/mrdotb/"
+  twitch = "https://twitch.tv/mrdotb"
+  linkedin = "https://www.linkedin.com/in/baptiste-chaleil-9494a775/"
 
 
 [languages]
