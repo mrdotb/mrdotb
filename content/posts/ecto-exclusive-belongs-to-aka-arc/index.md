@@ -91,7 +91,7 @@ defmodule ExclusiveArc.ACL do
     |> assoc_media(media)
     # Last check if only one media was associated it's impossible to trigger
     # with this changeset but it will help in case of changes later in the project
-    |> Changeset.check_constraint(:check_exclusive, :check_exclusive)
+    |> Changeset.check_constraint(:check_exclusive, name: :check_exclusive)
   end
 
   # Using pattern matching to associate the media and check the foreign key and unique constraint
