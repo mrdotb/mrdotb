@@ -2,7 +2,7 @@
 title = 'Render beautiful pdf invoice with phoenix and pagedjs'
 date = '2022-03-25T13:50:53+01:00'
 author = 'mrdotb'
-description = ''
+description = 'How to render a beautiful paginated pdf invoice with phoenix and pagedjs'
 tags = ['elixir', 'phoenix', 'pagedjs', 'pdf']
 toc = true
 showReadingTime = true
@@ -10,7 +10,7 @@ showReadingTime = true
 
 ## Intro
 
-In this blog post, using [phoenix](https://www.phoenixframework.org/) and [pagedjs](https://pagedjs.org/) we are going to render beautiful invoice that we can export to pdf.
+In this blog post, using [phoenix](https://www.phoenixframework.org/) and [pagedjs](https://pagedjs.org/) we are going to render beautiful invoice and maybe paginated in a4 format that we can export to pdf.
 
 [![what it will look like](./2-screenshot-page.png)](./2-screenshot-page.png)
 [The invoice in pdf format](./1-invoice-sample.pdf)
