@@ -169,4 +169,7 @@ UploadWithElixir.video_insert()
 If it does not work.
 There is 10,000 quota allocation an upload cost 1600. So if it does not work double check everything. Even a fail request cost 1600 you can do only 6 upload request per 24hours.
 
-Some limitations, it's not possible to put the video as public without having you app verified by google...
+Some limitations:
+- it's not possible to put the video as public without having you app verified by google...
+- the refresh_token will expire after 7 days
+
