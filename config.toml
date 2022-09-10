@@ -32,6 +32,7 @@ paginate = 5
   github = "https://github.com/mrdotb/"
   twitch = "https://twitch.tv/mrdotb"
   linkedin = "https://www.linkedin.com/in/baptiste-chaleil-9494a775/"
+  rss = "/index.xml"
 
 
 [languages]
@@ -67,37 +68,13 @@ paginate = 5
         weight = 1
 
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-        weight = 2
-
-      [[languages.en.menu.main]]
         identifier = "til"
         name = "Today I learn"
         url = "/tils"
+        weight = 2
+
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
         weight = 3
-
-      [[languages.en.menu.main]]
-        identifier = "contact"
-        name = "Contact"
-        url = "/contact"
-        weight = 4
-
-      [[languages.en.menu.main]]
-        identifier = "github"
-        name = "Github"
-        url = "https://github.com/mrdotb/"
-        weight = 5
-
-      [[languages.en.menu.main]]
-        identifier = "twitch"
-        name = "Twitch"
-        url = "https://twitch.tv/mrdotb"
-        weight = 6
-
-      [[languages.en.menu.main]]
-        identifier = "linkedin"
-        name = "Linkedin"
-        url = "https://www.linkedin.com/in/baptiste-chaleil-9494a775/"
-        weight = 7

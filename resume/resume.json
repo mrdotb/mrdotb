@@ -1,0 +1,121 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Baptiste Chaleil",
+    "label": "Freelance Developer Elixir",
+    "picture": "https://media-exp1.licdn.com/dms/image/C5603AQEKtc482TK7tA/profile-displayphoto-shrink_200_200/0/1599321522231?e=1668038400&v=beta&t=sGCUuN6Y5zbeEZ2flq6YInynLugDOH8fx1k3CxOqFoM",
+    "email": "baptiste.chaleil@protonmail.com",
+    "phone": "0667883325",
+    "url": "https://mrdotb.com",
+    "summary": "I am a freelance developer specialized in development of web applications with Elixir. I love to develop. I care about UX, responsiveness, performance, maintainability and scalability.",
+    "location": {
+      "countryCode": "FR",
+      "city": "Paris"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "baptiste-chaleil-9494a775",
+        "url": "https://www.linkedin.com/in/baptiste-chaleil-9494a775/"
+      },
+      {
+        "network": "Github",
+        "username": "mrdotb",
+        "url": "https://github.com/mrdotb"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Evoluflor",
+      "position": "Freelance Lead Full Stack Elixir Developer",
+      "startDate": "2020-09-30",
+      "endDate": "2022-08-01",
+      "highlights": [
+        "Maintening and improving Graphql Api build with Phoenix Abstinthe",
+        "Rich dashboard for shop owner in Liveview (stats, accouting ...)",
+        "Eshop solution",
+        "Follow the official French certification for cashier system (data chaining, system ...)"
+      ],
+      "summary": "A SaaS app cashier system designed specificly for florist",
+      "url": "https://www.evoluflor.fr/",
+      "location": "Remote"
+    },
+    {
+      "company": "Upintown",
+      "position": "Freelance Backend Elixir Developer",
+      "startDate": "2021-03-01",
+      "endDate": "2021-04-01",
+      "highlights": [
+        "Adding new ressources on a Graphql Api build with Phoenix Abstinthe"
+      ],
+      "summary": "Discover all the exhibitions in Paris and let yourself be inspired",
+      "url": "https://pablo-app.com/fr",
+      "location": "Remote"
+    },
+    {
+      "company": "PandaScore",
+      "position": "Full Stack Developer",
+      "startDate": "2017-09-30",
+      "endDate": "2019-08-31",
+      "highlights": [
+        "Infrastructure migration from Azure to Google Cloud",
+        "Migrate the Rails API to Phoenix",
+        "Developing and maintaining differents services in Elixir and Node.js"
+      ],
+      "summary": "Odds and stats on esports games (league of legends, counter strike GO, dota2 ...)",
+      "url": "https://pandasacore.co",
+      "location": "Paris"
+    }
+  ],
+  "education": [
+    {
+      "institution": "42",
+      "area": "Software Development",
+      "studyType": "",
+      "startDate": "2015-12-31",
+      "endDate": "2018-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "DEVELOPMENT",
+      "level": "",
+      "keywords": ["elixir", "phoenix", "postgres", "javascript", "C"]
+    },
+    {
+      "name": "OPS",
+      "level": "",
+      "keywords": ["ubuntu", "docker", "ansible", "aws", "gcloud", "vps"]
+    },
+    {
+      "name": "CODING",
+      "level": "",
+      "keywords": ["vim", "zsh", "tmux"]
+    },
+    {
+      "name": "CMD",
+      "level": "",
+      "keywords": ["ffmpeg", "magick"]
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Native Speaker",
+      "language": "French"
+    },
+    {
+      "fluency": "Fluent",
+      "language": "Anglais"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

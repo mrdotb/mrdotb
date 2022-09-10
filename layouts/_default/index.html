@@ -64,4 +64,87 @@
     {{ end }}
     {{ partial "pagination.html" . }}
   </div>
+
+  {{ if eq $paginator.PageNumber 1}}
+    <div class="sidebar">
+      <div class="about-small">
+        <h3>About</h3>
+        {{ $img := resources.Get "/img/sense.jpg" }}
+        {{ $img := $img.Resize "300x" }}
+        <img src="{{ $img.RelPermalink }}" alt="Sense at Samsung d'light, Seoul Korea">
+        <p>👋 Freelance elixir developer from Paris 🗼</p>
+        <div class="socials">
+          <span>
+            <a href="{{ $.Site.Author.github }}" target="_blank">
+              {{ readFile "assets/img/github-icon.svg" | safeHTML }}
+            </a>
+          </span>
+          <span>
+            <a href="{{ $.Site.Author.twitch}}" target="_blank">
+              {{ readFile "assets/img/twitch-icon.svg" | safeHTML }}
+            </a>
+          </span>
+          <span>
+            <a href="{{ $.Site.Author.linkedin }}" target="_blank">
+              {{ readFile "assets/img/linkedin-icon.svg" | safeHTML }}
+            </a>
+          </span>
+          <span>
+            <a href="{{ $.Site.Author.rss }}" target="_blank">
+              {{ readFile "assets/img/rss-icon.svg" | safeHTML }}
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="work">
+        <h3>Work</h3>
+        <ol>
+          <li class="company">
+            <div class="company-logo">
+              {{ readFile "assets/img/evoluflor.svg" | safeHTML }}
+            </div>
+            <div class="company-block">
+              <div class="company-link">
+                <a href="https://www.evoluflor.fr/" target="_blank">Evoluflor</a>
+              </div>
+              <div class="company-job">Lead elixir developer</div>
+              <div class="company-time">2020 - 2022</div>
+            </div>
+          </li>
+          <li class="company">
+            <div class="company-logo">
+              {{ readFile "assets/img/pablo.svg" | safeHTML }}
+            </div>
+            <div class="company-block">
+              <div class="company-link">
+                <a href="https://pablo-app.com/fr" target="_blank">Pablo</a>
+              </div>
+              <div class="company-job">Backend elixir developer</div>
+              <div class="company-time">2021 - 2021</div>
+            </div>
+          </li>
+          <li class="company">
+            <div class="company-logo">
+              {{ $img := resources.Get "/img/pandascore.png" }}
+              <img src="{{$img.RelPermalink}}" alt="pandascore logo">
+            </div>
+            <div class="company-block">
+              <div class="company-link">
+                <a href="https://pandascore.co/" target="_blank">Pandascore.co</a>
+              </div>
+              <div class="company-job">Ruby / node.js / elixir developer</div>
+              <div class="company-time">2017 - 2019</div>
+            </div>
+          </li>
+        </ol>
+        <div class="resume">
+          {{ $pdf := resources.Get "/resume.pdf" }}
+          <a class="resume-btn" href="{{ $pdf.RelPermalink }}">
+            Download resume
+            {{ readFile "assets/img/arrow-down.svg" | safeHTML }}
+          </a>
+        </div>
+      </div>
+    </div>
+  {{ end }}
 {{ end }}

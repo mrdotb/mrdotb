@@ -6,7 +6,7 @@
         <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
       >
       <span
-        >Theme created by
+        >Theme based on
         <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
       >
     </div>
@@ -27,6 +27,12 @@
           {{ readFile "assets/img/linkedin-icon.svg" | safeHTML }}
         </a>
       </span>
+      <span>
+        <a href="{{ $.Site.Author.rss }}" target="_blank">
+          {{ readFile "assets/img/rss-icon.svg" | safeHTML }}
+        </a>
+      </span>
+
     </div>
   </div>
 </footer>

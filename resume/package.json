@@ -1,0 +1,15 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx resume export ../assets/resume.pdf --theme jsonresume-theme-caffeine"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonresume-theme-caffeine": "^1.2.3",
+    "resume-cli": "^3.0.7"
+  }
+}
