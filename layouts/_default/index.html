@@ -72,7 +72,13 @@
         {{ $img := resources.Get "/img/sense.jpg" }}
         {{ $img := $img.Resize "300x" }}
         <img src="{{ $img.RelPermalink }}" alt="Sense at Samsung d'light, Seoul Korea">
-        <p>👋 Freelance elixir developer from Paris 🗼</p>
+        <p>
+          Freelance elixir developer from Paris 🗼
+          <br>
+          Currently looking for new contract.
+          <br>
+          <a href="mailto:baptiste.chaleil@protonmail.com">Contact me</a>
+        </p>
         <div class="socials">
           <span>
             <a href="{{ $.Site.Author.github }}" target="_blank">
