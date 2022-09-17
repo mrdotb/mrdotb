@@ -96,7 +96,8 @@ mix deps.get
 ```
 
 Edit `application.ex` to setup goth
-```elixir
+
+{{< code language="elixir" title="lib/application.ex" >}}
 defmodule UploadWithElixir.Application do
   use Application
 
@@ -119,7 +120,7 @@ defmodule UploadWithElixir.Application do
     Supervisor.start_link(children, strategy: :one_for_one)
   end
 end
-```
+{{< /code >}}
 
 Verify if you can get token with goth.
 ```elixir
@@ -128,7 +129,7 @@ Goth.fetch(UploadWithElixir.Goth)
 ```
 
 The google lib is verbose so let's write some function to do the insert.
-```elixir
+{{< code language="elixir" >}}
 defmodule UploadWithElixir do
   def video_insert do
     # get the token
@@ -158,7 +159,7 @@ defmodule UploadWithElixir do
     )
   end
 end
-```
+{{< /code >}}
 
 Start iex and run the function you should get ok.
 ```elixir
@@ -173,3 +174,5 @@ Some limitations:
 - it's not possible to put the video as public without having you app verified by google...
 - the refresh_token will expire after 7 days
 
+
+{{< newsletter >}}

@@ -128,3 +128,6 @@ end
 ## Repository demo
 
 https://github.com/mrdotb/exclusive_arc
+
+
+{{< newsletter >}}
