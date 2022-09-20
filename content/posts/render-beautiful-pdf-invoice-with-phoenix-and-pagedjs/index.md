@@ -10,11 +10,15 @@ showReadingTime = true
 
 ## Intro
 
+
 In this blog post, using [phoenix](https://www.phoenixframework.org/) and [pagedjs](https://pagedjs.org/) we are going to render invoice in pdf format.
 
 How it's going to look like with the UI and the pdf preview.
-[![what it will look like](./2-screenshot-page.png)](./2-screenshot-page.png)
-[This invoice printed in pdf ](./1-invoice-sample.pdf)
+{{< lightbox
+  src="/posts/render-beautiful-pdf-invoice-with-phoenix-and-pagedjs/2-screenshot-page.png"
+  alt="What it will look like"
+>}}
+[The invoice printed in pdf ](./1-invoice-sample.pdf)
 
 ## What is pagedjs ?
 
@@ -635,7 +639,10 @@ end
 {{< /code >}}
 
 After this point you should be able to go to `/invoices` and see our list of invoices.
-[![what it should look like](./3-screenshot-page.png)](./3-screenshot-page.png)
+{{< lightbox
+  src="/posts/render-beautiful-pdf-invoice-with-phoenix-and-pagedjs/3-screenshot-page.png"
+  alt="What it should look like"
+>}}
 
 You can click on one of them but the preview will be empty until we finish last step.
 

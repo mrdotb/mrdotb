@@ -22,7 +22,10 @@ For my future self and for others here is the recipe.
 
 *How it will look.*
 
-![diagram exclusive belongs to](/posts/ecto-exclusive-belongs-to-aka-arc/diagram.svg)
+{{< lightbox
+  src="/posts/ecto-exclusive-belongs-to-aka-arc/diagram.svg"
+  alt="digram exclusive belongs to with datagrip"
+>}}
 
 ## Migration
 

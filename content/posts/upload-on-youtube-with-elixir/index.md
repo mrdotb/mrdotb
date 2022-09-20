@@ -22,43 +22,72 @@ https://github.com/mrdotb/youtube_upload_with_elixir
 
 ### Create project
 
-![create project](/posts/upload-on-youtube-with-elixir/1-create-project.png)
-
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/1-create-project.png"
+  alt="Create google project"
+>}}
 
 ### Enable Youtube api
 
 Type `youtube api` in the search bar then click on YouTube Data api v3.
-![enable youtube api 1](/posts/upload-on-youtube-with-elixir/2-enable-youtube-api-1.png)
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/2-enable-youtube-api-1.png"
+  alt="enable youtube api 1"
+>}}
 
 Enable it.
-![enable youtube api 2](/posts/upload-on-youtube-with-elixir/2-enable-youtube-api-2.png)
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/2-enable-youtube-api-2.png"
+  alt="enable youtube api 2"
+>}}
 
 
 ### Setup oauth consent screen
 
 Click Oauth consent screen then tick external then create.
-![setup oauth consent screen 1](/posts/upload-on-youtube-with-elixir/3-setup-oauth-consent-screen-1.png)
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/3-setup-oauth-consent-screen-1.png"
+  alt="setup oauth consent screen 1"
+>}}
 
 Fill the mandatory fields App name, User support email and Email addresses.
-![setup oauth consent screen 2](/posts/upload-on-youtube-with-elixir/3-setup-oauth-consent-screen-2.png)
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/3-setup-oauth-consent-screen-2.png"
+  alt="setup oauth consent screen 2"
+>}}
 
 Add or remove scopes.
-![setup oauth consent screen 3](/posts/upload-on-youtube-with-elixir/3-setup-oauth-consent-screen-3.png)
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/3-setup-oauth-consent-screen-3.png"
+  alt="setup oauth consent screen 3"
+>}}
 
 Tick youtube and youtube upload then update.
-![setup oauth consent screen 4](/posts/upload-on-youtube-with-elixir/3-setup-oauth-consent-screen-4.png)
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/3-setup-oauth-consent-screen-4.png"
+  alt="setup oauth consent screen 4"
+>}}
 
 Add a test user this user is the google who own the youtube channel you want to upload.
-![setup oauth consent screen 5](/posts/upload-on-youtube-with-elixir/3-setup-oauth-consent-screen-5.png)
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/3-setup-oauth-consent-screen-5.png"
+  alt="setup oauth consent screen 5"
+>}}
 
 
 ### Create credentials
 
 Click create credentials then OAuth client ID.
-![create credentials 1](/posts/upload-on-youtube-with-elixir/4-create-credentials-1.png)
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/4-create-credentials-1.png"
+  alt="create credentials 1"
+>}}
 
 Choose Web application and fill the name and the return uri as `https://developers.google.com/oauthplayground`. This is mandatory to get the refresh token from the oauthplayground! Keep the page open you will need the `client_id` and `client_secret`. 
-![create credentials 2](/posts/upload-on-youtube-with-elixir/4-create-credentials-2.png)
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/4-create-credentials-2.png"
+  alt="create credentials 2"
+>}}
 
 
 ### Get the refresh token on google playground
@@ -66,13 +95,22 @@ Choose Web application and fill the name and the return uri as `https://develope
 Go to [oauthplayground](https://developers.google.com/oauthplayground/).
 
 On the right side of the screen open the settings and input your client id and client secret.
-![oauth playground 1](/posts/upload-on-youtube-with-elixir/5-oauth-playground-1.png)
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/5-oauth-playground-1.png"
+  alt="oauth playground 1"
+>}}
 
 On left side tick youtube and youtube.upload then click on authorize api you will be redirected and prompted to give the youtube authorization to your app.
-![oauth playground 2](/posts/upload-on-youtube-with-elixir/5-oauth-playground-2.png)
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/5-oauth-playground-2.png"
+  alt="oauth playground 2"
+>}}
 
 Now click exchange the authorization code for tokens. Copy the refresh token you will need it after.
-![oauth playground 3](/posts/upload-on-youtube-with-elixir/5-oauth-playground-3.png)
+{{< lightbox
+  src="/posts/upload-on-youtube-with-elixir/5-oauth-playground-3.png"
+  alt="oauth playground 3"
+>}}
 
 ## Elixir code
 
