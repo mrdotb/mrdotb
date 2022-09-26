@@ -6,6 +6,7 @@ description = 'A league of legend probuilds with elixir phoenix, part one.'
 tags = ['elixir', 'phoenix', 'ecto', 'tutorial', 'riot api']
 toc = true
 showReadingTime = true
+cover = "/posts/probuild-ex-part-one/cover.png"
 +++
 
 ## Intro
@@ -141,7 +142,7 @@ I used [datagrip](https://www.jetbrains.com/datagrip/) to make this DB diagram.
 - `participant` have one opponent `participant` (participant have an opponent in the enemy team who have the same position ex: Middle, Top ...)
 
 
-[![schema network config mrdotb](/posts/probuild-ex-part-one/2-db-diagram.png)](/posts/probuild-ex-part-one/2-db-diagram.png)
+[![Db diagram datagrip](/posts/probuild-ex-part-one/2-db-diagram.png)](/posts/probuild-ex-part-one/2-db-diagram.png)
 
 
 ## Show me the code!
