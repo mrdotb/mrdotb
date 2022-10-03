@@ -66,7 +66,7 @@ I took inspiration from [probuilds.net](https://www.probuilds.net/) and [probuil
 - Toogle a row to get the full game detail.
 - Get new game added to the app in real time.
 
-## Data modeling & data sources
+## Data modelling & data sources
 
 ### Riot api
 
@@ -813,5 +813,7 @@ Well done and thanks for sticking with me to the end! We built the foundation fo
 
 In the next part we will focus on collecting the Pros and Games data with GenServer processes and insert those in our database.
 
-Be sure to sign up to the newsletter so that you won't miss the next Part. Feel free to leave comments or feedback. See you soon !
+Be sure to sign up to the newsletter so that you won't miss the next Part. Feel free to leave comments or feedback. I also appreciate if you can star ⭐ the companion code [repo](https://github.com/mrdotb/probuild_ex).
+
+See you soon !
 {{< newsletter >}}
