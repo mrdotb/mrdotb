@@ -503,7 +503,8 @@ Many changes in our `GameLive` liveview let's break it up:
 - We binded our buttons click to their team position
 - The rows render use a `cond` to check in order if we are `loading?`, if there is no results or display the results
 
-You can try the search and the filters.
+
+Visit [http://localhost:4000](http://localhost:4000) and try the search and filters
 
 {{< lightbox
   src="/posts/probuild-ex-part-four/1-search-and-filter.png"
