@@ -8,9 +8,9 @@ tags = ['elixir', 'phoenix', 'plug', 'seo']
 
 For a current project I needed to prevent search engine to index the admin dashboard.
 
-There is different way to achieve that. The method I found the most conveniant with phoenix is to add the `X-Robots-tag` header using a plug.
+There is different way to achieve that. The method I found the most conveniant with phoenix is to add a `X-Robots-tag` header using a plug.
 
-The `X-Robots-tag` header can take several value the one we are intrested is:
+The `X-Robots-tag` header can take several value the one we are intrested are:
 - **noindex** *Do not show this page, media, or resource in search results. If you don't specify this directive, the page, media, or resource may be indexed and shown in search results.*
 - **nofollow** *Do not follow the links on this page. If you don't specify this directive, Google may use the links on the page to discover those linked pages. Learn more about nofollow.*
 
