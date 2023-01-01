@@ -4,6 +4,7 @@ date = '2022-12-31T13:31:13.003944Z'
 author = 'mrdotb'
 description = 'Prevent search engine on specific page using the X-Robots-tag header'
 tags = ['elixir', 'phoenix', 'plug', 'seo']
+cover = "/tils/phoenix-plug-prevent-search-engine-on-admin-dashboard/cover.webp"
 +++
 
 For a current project I needed to prevent search engine to index the admin dashboard.
