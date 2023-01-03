@@ -6,6 +6,7 @@ description = 'How to render a beautiful paginated pdf invoice with phoenix and 
 tags = ['elixir', 'phoenix', 'pagedjs', 'pdf']
 toc = true
 showReadingTime = true
+cover = "/posts/render-beautiful-pdf-invoice-with-phoenix-and-pagedjs/cover.webp"
 +++
 
 ## Intro
