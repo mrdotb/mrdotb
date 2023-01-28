@@ -1,0 +1,16 @@
+name = "mrdotb-workers"
+main = "src/index.js"
+compatibility_date = "2023-01-28"
+
+routes = [
+  { pattern = "mrdotb.com/api", zone_id = "e890ffe8d1bd614f194af47f3ccef1c8" },
+  { pattern = "mrdotb.com/api/*", zone_id = "e890ffe8d1bd614f194af47f3ccef1c8" }
+]
+
+[vars]
+# The necessary secrets are:
+# - MAILERLITE_API_TOKEN
+# Run `echo <VALUE> | wrangler secret put <NAME>`
+
+# The MAILERLITE GROUP_ID where we want to put the subscriber emails
+GROUP_ID = "66495958237578329"

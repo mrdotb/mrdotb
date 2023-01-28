@@ -1,0 +1,17 @@
+{
+  "name": "workers",
+  "version": "0.0.0",
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "wrangler": "2.8.1"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "format": "standard --fix"
+  },
+  "dependencies": {
+    "hono": "^2.7.5"
+  }
+}
