@@ -4,4 +4,6 @@ date = '{{ .Date}}'
 author = 'mrdotb'
 description = ''
 tags = ['til']
+toc = true
+showReadingTime = true
 +++
