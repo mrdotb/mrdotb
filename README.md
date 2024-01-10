@@ -1,6 +1,6 @@
 👋 Hi there
 
-I'm a freelance passionate developer from France :france
+I'm a freelance passionate developer from France
 
 **About me**
 - ❤️ I love writing Elixir
