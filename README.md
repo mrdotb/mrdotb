@@ -1,6 +1,6 @@
 👋 Hi, I'm Baptiste Chaleil!
 
-I'm a freelance developer with 15 years of diverse experience across multiple domains. I spent three years leading the development of a SaaS cashier system, excelling in both independent and team environments.
+I'm a Indie Hacker with 15 years of diverse experience across multiple domains. I spent three years leading the development of a SaaS cashier system, excelling in both independent and team environments.
 
 I’ve worked with a wide range of technologies, from video generation and reversing private APIs to security, deployment, Kubernetes (k8s), web extensions, and full-stack development. I embrace adaptability and a hacker mindset, always eager to engineer innovative solutions.
 
